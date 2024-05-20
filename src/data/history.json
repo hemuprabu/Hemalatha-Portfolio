@@ -1,0 +1,19 @@
+[
+    {
+      "role": "Software Engineer",
+      "organisation": "Primus",
+      "startDate": "Dec, 2013",
+      "endDate": "Dec 2014",
+      "experiences": ["Worked on Google Web Toolkit"],
+      "imageSrc": "history/primus.png"
+    },
+    {
+      "role": "UI Designer",
+      "organisation": "Cognizant",
+      "startDate": "Jan, 2015",
+      "endDate": "May, 2016",
+      "experiences": ["Worked on HTML, CSS, Javscript, Backbone JS, Bootstrap, JQuery, mySql"],
+      "imageSrc": "history/cognizant.png"
+    }
+  ]
+  

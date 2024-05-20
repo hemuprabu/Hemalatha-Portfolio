@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Employee_Payroll_Tracker",
+      "imageSrc": "projects/project1.png",
+      "description": "This is a Employee Payroll Tracker application built with HTML, CSS, and JavaScript.",
+      "skills": ["HTML", "CSS", "Javascript"],
+      "source": "https://github.com/hemuprabu/Employee_Payroll_Tracker"
+    },
+    {
+      "title": "Task_board",
+      "imageSrc": "projects/project2.png",
+      "description": "This is a project made to learn the task board application that allows a team to manage project tasks",
+      "skills": ["HTML", "CSS", "Javascript"],
+      "source": "https://github.com/hemuprabu/Task_board"
+    },
+    {
+      "title": "Paws of the Family",
+      "imageSrc": "projects/project3.png",
+      "description": "This is a application that allows a dog lover look into the dog image and info about it by using this App.",
+      "skills": ["HTML", "CSS", "Javascript", "API", "JQuery"],
+      "source": "https://github.com/hemuprabu/Paws_of_the_Family"
+    },
+    {
+        "title": "Weather-Dashboard",
+        "imageSrc": "projects/project4.png",
+        "description": "This is a project made to learn the about the weather app.",
+        "skills": ["HTML", "CSS", "Javascript", "API", "JQuery"],
+        "source": "https://github.com/hemuprabu/Weather-Dashboard"
+      }
+  ]
