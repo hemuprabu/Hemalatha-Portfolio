@@ -6,6 +6,15 @@ import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
+  const handleDownload = () => {
+    const url = '{getImageUrl(Hemalatha_Prakasam_Resume.docx)}'; 
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', 'Hemalatha_Prakasam_Resume.docx');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
@@ -42,7 +51,11 @@ export const Experience = () => {
               </li>
             );
           })}
+          <button className={styles.downloadResumeBtn} onClick={handleDownload}>
+      Download Resume
+    </button>
         </ul>
+        
       </div>
     </section>
   );

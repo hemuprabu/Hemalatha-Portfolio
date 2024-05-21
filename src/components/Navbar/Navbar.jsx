@@ -2,13 +2,16 @@ import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
+import { Link } from "react-router-dom";
+
+
 export const Navbar = () => {
     const [menuOpen, setMenuOpen]= useState(false);
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
+      <Link className={styles.title}  to="/">
         Portfolio
-      </a>
+      </Link>
       <div className={styles.menu}>
         <img className={styles.menuBtn} 
         src={menuOpen ? getImageUrl("nav/closeIcon.png"): getImageUrl("nav/menuIcon.png")}
@@ -19,16 +22,16 @@ export const Navbar = () => {
         onClick={()=> setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <Link to="/about" >About</Link>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+          <Link to="/experience">Experience</Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+          <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="#contacts">Contacts</a>
+          <Link to="/contact">Contacts</Link>
           </li>
         </ul>
       </div>
