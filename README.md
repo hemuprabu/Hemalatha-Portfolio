@@ -76,6 +76,14 @@ To run the Hemalatha-portfolio application, follow these steps to install the re
 
 * GitHub repository contains application code.
 
+## Screenshot:
+
+![Screenshot 2024-05-20 220445](https://github.com/hemuprabu/hemalatha-portfolio/assets/108079829/070d7d11-8a08-4e61-8b8c-185c0c056ea5)
+![Screenshot 2024-05-20 220452](https://github.com/hemuprabu/hemalatha-portfolio/assets/108079829/cdce458e-1db3-4a99-b69b-adcf77c702a0)
+![Screenshot 2024-05-20 220457](https://github.com/hemuprabu/hemalatha-portfolio/assets/108079829/7ef0f5f5-8889-4b56-bcbe-f58dc29f61f6)
+![Screenshot 2024-05-20 220501](https://github.com/hemuprabu/hemalatha-portfolio/assets/108079829/454ef965-d3a0-45fc-92fe-b3bd2247e885)
+![Screenshot 2024-05-20 220506](https://github.com/hemuprabu/hemalatha-portfolio/assets/108079829/4eb90574-fcb4-4645-ae89-3e9827807909)
+
 ## Application Quality:
 * User experience is intuitive and easy to navigate.
 
